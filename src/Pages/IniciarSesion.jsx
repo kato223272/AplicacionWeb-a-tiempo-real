@@ -16,7 +16,7 @@ function Login() {
           <Form>
           <Form.Group as={Row} className="mb-3" controlId="formPlaintextemail">
         <Form.Label column sm="2" className="letraIniciarSesion">
-            Email
+            Correo
         </Form.Label>
         <Col sm="10">
           <Form.Control type="email" placeholder="email" />
@@ -25,7 +25,7 @@ function Login() {
 
       <Form.Group as={Row} className="mb-3" controlId="formPlaintextPassword">
         <Form.Label column sm="2" className="letraIniciarSesion">
-          Password
+          Contraseña
         </Form.Label>
         <Col sm="10">
           <Form.Control type="password" placeholder="Password" />
