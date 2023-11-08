@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 import Form from 'react-bootstrap/Form';
 import '../css/IniciarSesion.css'
 
@@ -12,35 +13,30 @@ function Login() {
       <div className="DatosInicioSesion">
           <h1>BIENVENIDO</h1>
           <hr />
-      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="name@example.com" />
+          <Form>
+          <Form.Group as={Row} className="mb-3" controlId="formPlaintextemail">
+        <Form.Label column sm="2" className="letraIniciarSesion">
+            Email
+        </Form.Label>
+        <Col sm="10">
+          <Form.Control type="email" placeholder="email" />
+        </Col>
       </Form.Group>
+
+      <Form.Group as={Row} className="mb-3" controlId="formPlaintextPassword">
+        <Form.Label column sm="2" className="letraIniciarSesion">
+          Password
+        </Form.Label>
+        <Col sm="10">
+          <Form.Control type="password" placeholder="Password" />
+        </Col>
+      </Form.Group>
+    </Form>
+    <a href=""> <button className="botonIniciarSesion">Iniciar sesión</button></a>
       </div>
     </Col>
+ 
    </div>
-    // <div className="login-container">
-    //   <div className="login-form">
-    //     <h2>Iniciar sesión</h2>
-    //     <form>
-    //       <div className="mb-3">
-    //         <label htmlFor="email" className="form-label">
-    //           Correo electrónico
-    //         </label>
-    //         <input type="email" className="form-control" id="email" />
-    //       </div>
-    //       <div className="mb-3">
-    //         <label htmlFor="password" className="form-label">
-    //           Contraseña
-    //         </label>
-    //         <input type="password" className="form-control" id="password" />
-    //       </div>
-    //       <button type="submit" className="btn btn-primary">
-    //         Iniciar sesión
-    //       </button>
-    //     </form>
-    //   </div>
-    // </div>
   );
 }
 

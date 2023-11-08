@@ -1,4 +1,5 @@
 import React from "react";
+import Form from 'react-bootstrap/Form';
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../css/IniciarSesion.css'
 
@@ -9,9 +10,9 @@ function Login() {
         <h2>Iniciar sesión</h2>
         <form>
           <div className="mb-3">
-            <label htmlFor="email" className="form-label">
-              Correo electrónico
-            </label>
+          <Form.Label column sm="2">
+          Email
+        </Form.Label>
             <input type="email" className="form-control" id="email" />
           </div>
           <div className="mb-3">

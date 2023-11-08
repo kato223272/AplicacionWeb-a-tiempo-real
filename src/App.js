@@ -15,7 +15,7 @@ import InicioSesion from './Pages/IniciarSesion.jsx';
 
 function App() {
   const currentPath = window.location.pathname.toLowerCase();
-  const navbarDisplay = (currentPath !== '/InicioSesion' && currentPath !== '/Crear' && currentPath !== '/recuperarcontrasenia' && currentPath !== '/registrarse') ? "block" : "none";
+  const navbarDisplay = (currentPath !== '/iniciosesion' && currentPath !== '/Crear' && currentPath !== '/recuperarcontrasenia' && currentPath !== '/registrarse') ? "block" : "none";
 
   return (
     <Router>
