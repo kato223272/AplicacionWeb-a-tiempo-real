@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
 
+import Footer from './Components/footer.jsx';
 import Navbar from './Components/Navbar.jsx';
 import Inicio from './Inicio.jsx';
 // import Crear from './Pages/CrearCuenta.jsx';
@@ -29,6 +30,7 @@ function App() {
         {/* <Route path="/seleccion" element={<Seleccion />} /> */}
         {/* <Route path="/recuperarcontrasenia" element={<Recuperar />} /> */}
       </Routes>
+      <Footer/>
     </Router>
   );
 }
