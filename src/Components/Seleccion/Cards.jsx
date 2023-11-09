@@ -1,19 +1,21 @@
 import React from 'react';
 import './Cards.css';
 
-const CardComponent = ({ image, title, text }) => {
-  const cardStyle = {
+const CardComponent = ({ image, title }) => {
+  const CardSeccionEstilo = {
     background: `url(${image})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   };
 
   return (
-    <div className="CardsSeleccion" style={cardStyle}>
+    <div className='ContenedorDeCardsSeleccion'>
+    <div className="CardsSeleccion" style={CardSeccionEstilo}>
       <div className="DatosDeLasCardsSeleccion">
         <h4>{title}</h4>
-        <p>{text}</p>
+
       </div>
+    </div>
     </div>
   );
 };

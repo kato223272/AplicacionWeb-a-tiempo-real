@@ -11,7 +11,7 @@ function Footer() {
         <div className="footer-content">
         </div>
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} vitual-dev Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} virtual-dev Todos los derechos reservados.</p>
           <p>Política de Privacidad | Términos y Condiciones</p>
         </div>
       </div>
