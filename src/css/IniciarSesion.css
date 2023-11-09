@@ -18,9 +18,7 @@ padding: 10%;
 }
 
 .DatosInicioSesion h1{
-
-
-  text-align: center;
+   text-align: center;
    color:rgb(255, 255, 255);
    font-size: 200%;
    text-shadow: -0.3px -0.3px 0.3px white, 0.3px 0.3px 0.3px white, 
@@ -64,3 +62,32 @@ margin-top: 10%;
 
 }
 
+.contenedorDeLetrasInicioSesion h5{
+  font-size: 100%;
+}
+
+
+.RecuperarContraInicioSesion h5, a{
+  font-size: 100%;
+  color: white;
+}
+
+.RecuperarContraInicioSesion{
+  margin-left: 30%;
+}
+
+.preguntaInicioSesion{
+  color: white;
+margin-left: 30%;
+}
+.preguntaInicioSesion a{
+margin-right: 1;
+}
+
+.flechaRegresoRegistrar{
+  font-size: 200%;
+  position: relative;
+  margin-left: 5%;
+  color: black;
+  margin-bottom: 2000%;
+}
