@@ -3,3 +3,10 @@
     width: 100%;
     padding: 2%;
 }
+.componenteCardsEstilo{
+text-decoration: none;
+transition: transform 0.6;
+}
+.componenteCardsEstilo:hover{
+    transform: scale(1.1);
+}

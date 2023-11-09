@@ -84,10 +84,11 @@ margin-left: 30%;
 margin-right: 1;
 }
 
-.flechaRegresoRegistrar{
+.flechaRegresoRegistrarInicio{
   font-size: 200%;
   position: relative;
   margin-left: 5%;
   color: black;
   margin-bottom: 2000%;
 }
+

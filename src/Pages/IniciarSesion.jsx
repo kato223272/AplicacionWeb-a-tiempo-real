@@ -11,7 +11,7 @@ function Login() {
     <div className="ContenedorInicioSesion">
       <a href="/">
         {" "}
-        <div className="flechaRegresoRegistrar">
+        <div className="flechaRegresoRegistrarInicio">
           <BsArrow90DegLeft />
         </div>
       </a>
@@ -51,8 +51,8 @@ function Login() {
 
           <div className="contenedorDeLetrasInicioSesion">
             <div classname="RecuperarContraInicioSesion">
-              <a href="">
-                <h5>Recuperar contraseña</h5>
+              <a href="./RecuperarContrasenia.jsx">
+                <h5 style={{marginLeft:"18%"}}>Recuperar contraseña</h5>
               </a>
             </div>
 

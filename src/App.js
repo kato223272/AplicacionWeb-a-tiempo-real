@@ -8,9 +8,9 @@ import Navbar from './Components/Navbar.jsx';
 import Inicio from './Inicio.jsx';
 // import Editar from './Pages/EditarPerfil.jsx';
 import InicioSesion from './Pages/IniciarSesion.jsx';
-// import Recuperar from './Pages/RecuperarContrasenia.jsx';
+import Recuperar from './Pages/RecuperarContrasenia.jsx';
 import Registrarse from './Pages/Registrarse.jsx';
-// import Seleccion from './Pages/Seleccion.jsx';
+import Seleccion from './Pages/Seleccion.jsx';
 
 
 function App() {
@@ -27,8 +27,8 @@ function App() {
         {/* <Route path="/Crear" element={<Crear />} /> */}
         <Route path="/iniciosesion" element={<InicioSesion />} />
         <Route path="/registrarse" element={<Registrarse />} />
-        {/* <Route path="/seleccion" element={<Seleccion />} /> */}
-        {/* <Route path="/recuperarcontrasenia" element={<Recuperar />} /> */}
+        <Route path="/seleccion" element={<Seleccion />} />
+        <Route path="/recuperarcontrasenia" element={<Recuperar />} />
       </Routes>
       <Footer/>
     </Router>

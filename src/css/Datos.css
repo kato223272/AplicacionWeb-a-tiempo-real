@@ -1,0 +1,45 @@
+.menu,
+.contenidoComponentesNav li{
+    border-bottom: 1px solid transparent;
+    transition:border-bottom 0.2s;
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+    transition: transform 0.5;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+  
+  }
+
+  .menu:hover{
+  background-color: rgba(0, 128, 0, 0.452);
+  border-radius: 10px;
+  padding: 2%;
+ 
+  }
+
+  .ContenedorDatosNav{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-left: 2%;
+  }
+
+.contenedorGeneradorCards{
+margin-top: 4%;
+  }
+  .ComponentesCardsDatos{
+    margin: 2%;
+  }
+
+.NombreDatos h4{
+color: black;
+}
+
+.flechaRegresoRegistrarDatos{
+  font-size: 200%;
+  position: relative;
+  margin-left: 5%;
+  color: black;
+}

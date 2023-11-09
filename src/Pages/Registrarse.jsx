@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import '../css/Registrarse.css'
 import { BsArrow90DegLeft } from "react-icons/bs";
 
-function Login() {
+function Registrarse() {
   return (
      
     <div className="ContenedorRegistrarse">
@@ -57,4 +57,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Registrarse;
