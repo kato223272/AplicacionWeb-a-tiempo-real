@@ -1,46 +1,83 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
-import '../css/IniciarSesion.css'
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Form from "react-bootstrap/Form";
+import { BsArrow90DegLeft } from "react-icons/bs";
+import "../css/IniciarSesion.css";
 
 function Login() {
   return (
-   <div className="ContenedorInicioSesion">
-    <Col className="ColIzquierdaInicio"></Col>
-    <Col className="ColDerechadaInicio">
-      <div className="DatosInicioSesion">
+    <div className="ContenedorInicioSesion">
+      <a href="/">
+        {" "}
+        <div className="flechaRegresoRegistrarInicio">
+          <BsArrow90DegLeft />
+        </div>
+      </a>
+
+      <Col className="ColIzquierdaInicio"></Col>
+      <Col className="ColDerechadaInicio">
+        <div className="DatosInicioSesion">
           <h1>BIENVENIDO</h1>
           <hr />
-      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="name@example.com" />
-      </Form.Group>
-      </div>
-    </Col>
-   </div>
-    // <div className="login-container">
-    //   <div className="login-form">
-    //     <h2>Iniciar sesión</h2>
-    //     <form>
-    //       <div className="mb-3">
-    //         <label htmlFor="email" className="form-label">
-    //           Correo electrónico
-    //         </label>
-    //         <input type="email" className="form-control" id="email" />
-    //       </div>
-    //       <div className="mb-3">
-    //         <label htmlFor="password" className="form-label">
-    //           Contraseña
-    //         </label>
-    //         <input type="password" className="form-control" id="password" />
-    //       </div>
-    //       <button type="submit" className="btn btn-primary">
-    //         Iniciar sesión
-    //       </button>
-    //     </form>
-    //   </div>
-    // </div>
+          <Form>
+            <Form.Group
+              as={Row}
+              className="mb-3"
+              controlId="formPlaintextemail"
+            >
+              <Form.Label column sm="2" className="letraIniciarSesion">
+                Correo
+              </Form.Label>
+              <Col sm="10">
+                <Form.Control type="email" placeholder="email" />
+              </Col>
+            </Form.Group>
+
+            <Form.Group
+              as={Row}
+              className="mb-3"
+              controlId="formPlaintextPassword"
+            >
+              <Form.Label column sm="2" className="letraIniciarSesion">
+                Contraseña
+              </Form.Label>
+              <Col sm="10">
+                <Form.Control type="password" placeholder="Password" />
+              </Col>
+            </Form.Group>
+          </Form>
+
+          <div className="contenedorDeLetrasInicioSesion">
+            <div classname="RecuperarContraInicioSesion">
+              <a href="./RecuperarContrasenia.jsx">
+                <h5 style={{marginLeft:"18%"}}>Recuperar contraseña</h5>
+              </a>
+            </div>
+
+            <div>
+              <a href="">
+                {" "}
+                <button className="botonIniciarSesion">Iniciar sesión</button>
+              </a>
+            </div>
+
+            <div className="RegistrateInicioSesion" style={{ display: "flex" }}>
+              <div className="preguntaInicioSesion">
+                <h5>¿No tienes una cuenta?</h5>
+              </div>
+              <div>
+                <a href="/registrarse">
+                  <h5>Registrate</h5>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Col>
+    </div>
+
   );
 }
 

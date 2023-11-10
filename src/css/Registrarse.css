@@ -1,18 +1,56 @@
-/* src/IniciarSesion.css */
-.login-container {
-    background: url('../img/codigooooooooooooo.png') no-repeat center center;
+.ContenedorRegistrarse {
+    background: url('../img/pastoderegistrarse.png') no-repeat center center;
     background-size: cover;
     min-height: 90vh; 
-    display: flex;
     justify-content: center;
     align-items: center;
   }
-  
-  .login-form {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 5px;
-    max-width: 400px;
-    margin: 0 auto;
+
+  .CuadrodeRegistrar{
+     background-color: #1c1c1c99 ;
+      padding: 4%;
+      width: 40%;
+      height: 75%;
+      align-items: center;
+      align-content: center;
+      margin-left: 30%;
+      margin-top: 10%;
+     
   }
+ 
+  .botonIniciarRegistrar{
+    background-color: rgba(74, 224, 96, 0.718);
+    border: white;
+    padding: 1%;
+    border-radius: 10px;
+    width: 45%;
+    transition: transform 0.5s;
+    margin-left: 30%;
+  }
+  
+  .botonIniciarRegistrar:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(40, 156, 40, 0.632);
+    transform: scale(1.1);
+  }
+ 
+ .IconoRegistrarse img{
+    width: 255px; height: 255px; border-radius: 150px; -webkit-border-radius: 150px; -moz-border-radius: 150px;  
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+      -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.904);
+      margin-top: -40%;
+      margin-left: 25%;
+      
+  }
+
+  .ContenidoInformacionRegistrar{
+    margin-top: 5%;
+  }
+  .flechaRegresoRegistrar{
+    font-size: 200%;
+    position: relative;
+    color: black;
+  }
+
   

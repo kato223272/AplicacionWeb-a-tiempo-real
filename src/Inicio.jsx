@@ -1,36 +1,49 @@
 import React from 'react';
-// import Carousel from './Components/Carousel.jsx';
+import Carrusel from './Components/Carrusel.jsx'
 import CardComponent from './Components/Inicio/Cards.jsx';
 import './css/Inicio.css'
+import Vacas from './img/VacaDeInicioCard.jpeg'
+import Semillas from './img/SemillasVariasInicio.jpeg'
+import Cosecha from './img/SeñorConVegetalesCarrusel.jpg'
 
-const CarouselView = () => {
+const Inicio = () => {
   return (
+
     <div className="containerInicio">
+    <Carrusel/>
+    
       <div className="row mt-4">
         <div className="col-md-4">
+          <a href="/seleccion" className='componenteCardsEstilo'>
           <CardComponent
-            image="img"
-            title="Card 1"
-            text="Contenido de la Tarjeta 1"
+            image={Vacas}
+            title="Ganadería"
           />
+          </a>
+         
         </div>
         <div className="col-md-4">
+
+          <a href="/seleccion" className='componenteCardsEstilo'>
           <CardComponent
-            image="img"
-            title="Card 2"
-            text="Contenido de la Tarjeta 2"
+            image={Semillas}
+            title="Semillas"
+           
           />
+          </a>
         </div>
+      
         <div className="col-md-4">
-          <CardComponent
-            image="img"
-            title="Card 3"
-            text="Contenido de la Tarjeta 3"
-          />
+        <a href="/seleccion" className='componenteCardsEstilo'> <CardComponent
+            image={Cosecha}
+            title="Cosecha"
+      
+          /></a>
+         
         </div>
       </div>
     </div>
   );
 };
 
-export default CarouselView;
+export default Inicio;
