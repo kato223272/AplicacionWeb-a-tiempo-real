@@ -2,93 +2,39 @@
 .ContenedorInicioSesion {
   background: url('../img/ImagenInicioSesion.png') no-repeat center center;
   background-size: cover;
-  min-height: 90vh; 
+  min-height: 60vh; 
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.ColDerechadaInicio{
-  
-  background-color: #21212186 ;
-padding: 10%;
-  align-items: center;
-  align-content: center;
-  
+.home-container{
+  /* position: fixed; */
+  /* left: 10%; */
+  /* right: 10%; */
+  /* top: 50%; */
+  /* transform: translate(0, -50%); */
+  display: flex;
+  flex-direction: column;
 }
 
-.DatosInicioSesion h1{
-   text-align: center;
-   color:rgb(255, 255, 255);
-   font-size: 200%;
-   text-shadow: -0.3px -0.3px 0.3px white, 0.3px 0.3px 0.3px white, 
-   -0.3px 0.3px 0.3px white, 
-   0.3px -0.3px 0.3px white;
-   letter-spacing: 5px;
-   font-weight: 700;
+.text-input-field{
+  /* padding: 24px 12px; */
+  border-radius: 7px;
+  font-size: 24px;
 }
 
-.DatosInicioSesion hr{
+.text-input-field:focus{
+  outline: none;
+}
+
+.enter-room-name-button{
+  margin-top: 10%;
+  padding: 15px 10px;
+  /* font-size: 28px; */
+  background: #31a24c;
   color: white;
-  border: 100px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
 }
-.letraIniciarSesion{
-  color: white;
-}
-
-.DatosInicioSesion button{
-margin-left: 10%;
-margin-top: 10%;
-padding: 1%;
-border-radius: 10px;
-width: 45%;
-margin-left: 30%;
-margin-top: 10%;
-}
-
-.botonIniciarSesion{
-  background-color: rgba(74, 224, 96, 0.718);
-  border: white;
-  padding: 1%;
-  border-radius: 10px;
-  width: 45%;
-  transition: transform 0.5s;
-}
-
-.botonIniciarSesion:hover{
-  color: rgb(255, 255, 255);
-  background-color: rgba(40, 156, 40, 0.632);
-  transform: scale(1.1);
-
-}
-
-.contenedorDeLetrasInicioSesion h5{
-  font-size: 100%;
-}
-
-
-.RecuperarContraInicioSesion h5, a{
-  font-size: 100%;
-  color: white;
-}
-
-.RecuperarContraInicioSesion{
-  margin-left: 30%;
-}
-
-.preguntaInicioSesion{
-  color: white;
-margin-left: 30%;
-}
-.preguntaInicioSesion a{
-margin-right: 1;
-}
-
-.flechaRegresoRegistrarInicio{
-  font-size: 200%;
-  position: relative;
-  margin-left: 5%;
-  color: black;
-  margin-bottom: 2000%;
-}
-

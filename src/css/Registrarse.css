@@ -4,19 +4,22 @@
     min-height: 90vh; 
     justify-content: center;
     align-items: center;
+    padding: 2%;
   }
+  
 
   .CuadrodeRegistrar{
-     background-color: #1c1c1c99 ;
+     background-color: #1c1c1cb6 ;
+     color: white;
       padding: 4%;
-      width: 40%;
-      height: 75%;
+      /* width: 40%; */
+      height: 90%;
       align-items: center;
       align-content: center;
-      margin-left: 30%;
+      /* margin-left: 10%; */
       margin-top: 10%;
-     
   }
+
  
   .botonIniciarRegistrar{
     background-color: rgba(74, 224, 96, 0.718);
@@ -28,29 +31,59 @@
     margin-left: 30%;
   }
   
+
   .botonIniciarRegistrar:hover{
     color: rgb(255, 255, 255);
     background-color: rgba(40, 156, 40, 0.632);
     transform: scale(1.1);
   }
  
- .IconoRegistrarse img{
-    width: 255px; height: 255px; border-radius: 150px; -webkit-border-radius: 150px; -moz-border-radius: 150px;  
-    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-      -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.904);
-      margin-top: -40%;
-      margin-left: 25%;
-      
-  }
 
   .ContenidoInformacionRegistrar{
     margin-top: 5%;
   }
-  .flechaRegresoRegistrar{
-    font-size: 200%;
-    position: relative;
-    color: black;
-  }
+/* ------------------------------------------- */
 
+.Chat {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.Mensajes {
+  margin-bottom: 10px;
+}
+
+.EnviarMensaje {
+  margin-top: 10px;
+
+}
+
+.EnviarMensaje input[type="text"] {
+  width: calc(100% - 70px);
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.botonEnviarMensaje{
+  
+  border-radius: 10%;
+}
+
+.EnviarMensaje button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.NombreUsuario input[type="text"] {
+  width: 100%;
+  padding: 5px;
+}
+
+ 
   
