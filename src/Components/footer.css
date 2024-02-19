@@ -1,7 +1,7 @@
   .footercontenedor {
     background: linear-gradient(to right, #000000, #074e07);
     color: #fff;
-    padding: 1%;
+    /* padding: 1%; */
     bottom:0px;
   
   }

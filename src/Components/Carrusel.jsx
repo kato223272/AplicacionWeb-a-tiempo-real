@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Imagen1 from '../img/CosechaCarrusel.jpeg';
 import Imagen2 from '../img/VacasCarrousel.png';
 import Imagen3 from '../img/SemillasCarrusel.webp';
+
 import './Carrusel.css';
 
 function CarouselComponent() {

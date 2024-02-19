@@ -1,0 +1,5 @@
+.Productosje{
+    flex: 1;
+    overflow-y: auto;
+     max-height: 150px; 
+}
