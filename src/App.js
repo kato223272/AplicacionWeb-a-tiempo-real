@@ -38,7 +38,8 @@ function App() {
         <Route exact path="/Home" Component={Home} />
         <Route path="/registrarse" element={<Registrarse />} />
         <Route path="/seleccion" element={<Seleccion />} />
-        {/* <Route path="/recuperarcontrasenia" element={<Recuperar />} /> */}
+        <Route path="/recuperarcontrasenia" element={<Recuperar />} />
+        
       </Routes>
       <Footer/>
     </Router>
