@@ -29,6 +29,7 @@ function App() {
         <Route path="/registrarse" element={<Registrarse />} />
         <Route path="/seleccion" element={<Seleccion />} />
         <Route path="/recuperarcontrasenia" element={<Recuperar />} />
+        
       </Routes>
       <Footer/>
     </Router>
