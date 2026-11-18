@@ -5,11 +5,13 @@ import './css/Inicio.css'
 import Vacas from './img/VacaDeInicioCard.jpeg'
 import Semillas from './img/SemillasVariasInicio.jpeg'
 import Cosecha from './img/SeñorConVegetalesCarrusel.jpg'
+import Navbar from './Components/Navbar.jsx'
 
 const Inicio = () => {
   return (
 
     <div className="containerInicio">
+      <Navbar></Navbar>
     <Carrusel/>
     
       <div className="row mt-4">

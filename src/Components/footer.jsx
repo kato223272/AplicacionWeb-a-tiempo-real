@@ -1,4 +1,4 @@
-// Footer.js
+
 import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaArrowRight, FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
